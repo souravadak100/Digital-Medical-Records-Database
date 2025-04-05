@@ -1,0 +1,212 @@
+.App__Form {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgb(255, 255, 255);
+  background-image: url("../src/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App__Form .homediv {
+  margin: 0px -350px 0px -350px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 2em;
+}
+
+.FormCenter {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 16px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.FormTitle {
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.FormTitle__Link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.FormTitle__Link--Active {
+  color: rgb(95, 174, 240);
+  border-bottom: 1px solid #707c8b;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  margin: 20px;
+  color: rgb(191, 200, 212);
+}
+
+.navbar-brand {
+  margin-left: 20px;
+  font-size: 25px !important;
+}
+
+.FormField {
+  margin: 10px 20px;
+  padding: 20px;
+}
+
+.FormField__Label {
+  display: block;
+  font-size: 1.3em;
+  color: rgb(255, 255, 255);
+}
+
+.FormField__ViewLabel {
+  display: block;
+  font-size: 0.9em;
+  color: rgb(255, 255, 255);
+}
+
+.FormField__Input {
+  width: 95%;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-bottom: 1px solid #f4f2f3;
+}
+
+.FormField__Input::placeholder {
+  color: rgb(191, 200, 212);
+}
+
+.FormField__Button {
+  background-color: rgb(58, 154, 233);
+  color: rgb(24, 32, 41);
+  border-radius: 25px;
+  padding: 15px 60px;
+  font-size: 0.8em;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+
+.FormField__all__Button {
+  background-color: rgb(20, 93, 153);
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px 40px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: auto;
+  float: right;
+}
+
+.FormField__all__font {
+  font-size: "27px";
+}
+
+.FormField__Button[disabled] {
+  background-color: #e0e0e0;
+}
+
+.FormField__Link {
+  color: #66707d;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid rgb(95, 174, 240);
+  padding-bottom: 5px;
+}
+
+.FormField__CheckboxLabel {
+  color: rgb(215, 221, 228);
+  font-size: 0.9em;
+}
+
+.FormField__Checkbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.FormField__TermsLink {
+  color: #707c8b;
+  border-bottom: 1px solid rgb(95, 174, 240);
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+
+.SideRow {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.DropDowns {
+  position: relative;
+  width: auto;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.dropdDownItem {
+  background-color: rgb(255, 255, 255);
+}
+
+.FormMiddle {
+  margin-bottom: 100px;
+  padding: 16px;
+  width: 50%;
+  margin-left: 35%;
+}
+
+.Header_details {
+  background-color: aqua;
+}
+input:invalid {
+  box-shadow: 0 0 0 0 black;
+}
+.btn-sample:active {
+  box-shadow: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
